@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <unist.h>
+#include <unistd.h>
 /**
- * main - you have to be a genius to understand the simplicity of unix
+ * main-write output
  *
- * Return : alway return (1)
+ * Return:Always (1) (success)
  *
  */
 int main(void)
 {
-	write("and that piece of art is useful"\" - Dora Korpar, 2015-10-19\n");
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
