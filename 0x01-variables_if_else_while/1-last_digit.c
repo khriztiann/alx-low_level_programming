@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-the if else statement
+ * main - the if else statement
  *
  * Return:Always return 0 (success)
  *
@@ -19,7 +19,7 @@ int main(void)
 		{
 			printf("Last digit of %d is %d and is grater than 5\n", n, o);
 		}
-		else if (o == o)
+		else if (o == 0)
 		{
 			printf("Last digit of %d is %d and is 0\n", n, o);
 		}
