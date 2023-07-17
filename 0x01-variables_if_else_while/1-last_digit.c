@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
  * main-the if else statement
  *
@@ -25,7 +25,7 @@ int main(void)
 		}
 		else
 		{
-			printf("Last digit pf %d is %d and is less than 6\n", n, o);
+			printf("Last digit of %d is %d and is less than 6\n", n, o);
 		}
 	return (0);
 }
