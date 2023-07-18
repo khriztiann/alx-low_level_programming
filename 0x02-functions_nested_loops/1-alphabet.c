@@ -1,19 +1,22 @@
 #include <stdio.h>
 /**
  * main-Printing the alphabet in lowercase
- *Description:using the _putchar
+ * Description:using the _putchar
  * Return:Always return (0)
  *
  */
-void print_alphabet(void)
+int main(void)
 {
 	char c;
 
+c = 'a';
 	while (c <= 'z')
-		c = 'a';
 	{
-		_putchar(c);
+		putchar(c);
 		c++;
 	}
-		_putchar('\n');
+	{
+		putchar('\n');
+	}
+	return (0);
 }
