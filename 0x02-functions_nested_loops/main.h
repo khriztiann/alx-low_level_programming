@@ -4,7 +4,6 @@ void print_alphabet_x10(void);
 void print_to_99(int n);
 void print_times_table(int n);
 int add(int, int);
-void print_last_digit(int);
 int _abs(int);
 int _islower(int c);
 int _isalpha(int);
