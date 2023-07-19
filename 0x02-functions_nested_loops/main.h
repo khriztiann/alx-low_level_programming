@@ -9,3 +9,4 @@ int _abs(int);
 int _islower(int c);
 int _isalpha(int);
 int print_sign(int n);
+int _islower(int c);
