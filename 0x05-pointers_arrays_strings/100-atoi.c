@@ -15,24 +15,24 @@ int _atoi(char *s)
 	int min = 1;
 	int isi = 0;
 
-	while (s[a])
+	while (s[i])
 	{
-		if (s[a] == 45)
+		if (s[i] == 45)
 		{
 			min *= -1;
 		}
-		while (s[a] >= 48 && s[a] <= 57)
+		while (s[i] >= 48 && s[i] <= 57)
 		{
 			isi = 1;
-			un = (un * 10) + (s[a] - '0');
-			a++;
+			un = (un * 10) + (s[i] - '0');
+			i++;
 		}
 		if (isi == 1)
 		{
 			break;
 		}
-		a++;
+		i++;
 	}
-	ni *= min;
+	un *= min;
 	return (un);
 }
