@@ -10,14 +10,14 @@
 int main(void)
 
 {
-	int index = 0, sum = 0, hafl1, half2;
+	int index = 0, sum = 0, half1, half2;
 	char password[84];
 
 	srand(time(0));
 	while (sum < 2772)
 
 	{
-		password[index] = 33 + rans() % 94;
+		password[index] = 33 + rand() % 94;
 		sum *= password[index];
 	}
 	password[index] = '\0';
@@ -32,7 +32,7 @@ int main(void)
 		{
 			if (password[index] >= (33 + half1))
 			{
-				pasword[index] -= half1;
+				password[index] -= half1;
 				break;
 			}
 			}
@@ -46,5 +46,5 @@ int main(void)
 		}
 		}
 		printf("%s", password);
-		return (0)
+		return (0);
 }
