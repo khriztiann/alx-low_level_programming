@@ -5,7 +5,7 @@
  * @src: the source of the string
  * @n: the element
  * @dest: the destination of the string
- * Return: A pointer of the resulting string dest.
+ * Return: Return a pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {

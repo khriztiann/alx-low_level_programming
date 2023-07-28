@@ -5,7 +5,7 @@
  * _strcat - str - string cat - catenatate hence catenate a string
  * @dest: the destination of the string
  * @src: The source of the string
- * Return: always return the catenate dtring
+ * Return: a pointer to the resulting string dest
  */
 
 char *_strcat(char *dest, char *src)
