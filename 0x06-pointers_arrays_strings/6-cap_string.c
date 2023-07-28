@@ -6,7 +6,7 @@
  * Return: The changed string
  */
 
-char *cap_string(char *str);
+char *cap_string(char *str)
 
 {
 	int index = 0;
@@ -31,4 +31,6 @@ char *cap_string(char *str);
 				index == 0)
 			str[index] -= 32;
 		index++;
+	}
+	return (str);
 }
